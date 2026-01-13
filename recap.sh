@@ -16,13 +16,13 @@ valeursortie=$(cat Prix.txt | tail -1)
 max=$(cat Prix.txt| sort -n | tail -1)
 min=$(cat Prix.txt| sort -n | head -1)
 dat=$(date)
-CHAT_ID=-1001876276898
+CHAT_ID=-<CHAT_ID>
 curl -s --data chat_id=$CHAT_ID --data-urlencode "text=$dat
 
 Valeur d'entrée=\$$valeurentree
 Valeur sortie= \$$valeursortie
 Valeur Min= \$$min
 Valeur Max= \$$max
-Moyenne=\$$moyenne" "https://api.telegram.org/bot5722099198:AAHR87VgvswTd19OhyuWxOqJ9x7x0S7nZ4E/sendMessage?parse_mode"
+Moyenne=\$$moyenne" "https://api.telegram.org/bot<tokenID>/sendMessage?parse_mode"
 
 >$fichier
