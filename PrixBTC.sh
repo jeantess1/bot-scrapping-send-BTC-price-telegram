@@ -12,7 +12,7 @@ debut="La valeur du BTC est: "
 fin="Dollars"
 total="$debut$Prix$fin"
 
-API_KEY=5722099198:AAHR87VgvswTd19OhyuWxOqJ9x7x0S7nZ4E
-CHAT_ID=-1001876276898
-curl -s --data chat_id=$CHAT_ID --data-urlencode "text=La valeur actuelle du BTC est: $Prix $" "https://api.telegram.org/bot5722099198:AAHR87VgvswTd19OhyuWxOqJ9x7x0S7nZ4E/sendMessage?parse_mode"
+API_KEY=<APII_KEY>
+CHAT_ID=-<CHAT_ID>
+curl -s --data chat_id=$CHAT_ID --data-urlencode "text=La valeur actuelle du BTC est: $Prix $" "https://api.telegram.org/bot<BOT_ID>/sendMessage?parse_mode"
 ~       
